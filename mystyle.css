@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    background-color: rgba(2, 1, 36, 0.952);
+    color: white;
+}
+
+table{
+    height: 900px;
+    width: auto;
+    border: 2px solid black;
+    margin-left: 20px;
+}
+
+table tr td {
+    height: auto;
+    width: auto;
+    border: 2px solid black;
+}
+
+table tr{
+    height: auto;
+    width: auto;
+    border: 2px solid black;
+    font-size: x-large;
+}
+
+ul,li{
+    list-style:none;
+    font-size: x-large;
+
+}
+
+p{
+    font-size: larger;
+    font-weight: bolder;
+    color: aqua;
+}
