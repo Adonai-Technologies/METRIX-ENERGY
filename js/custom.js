@@ -59,6 +59,7 @@ function myMap() {
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 }
 
+window.onload = myMap;
 // nice select
 $(document).ready(function () {
     $('select').niceSelect();
