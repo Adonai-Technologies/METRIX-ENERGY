@@ -31,3 +31,61 @@ p{
     margin-right: 40px;
     margin-top: 10px;
 }
+
+
+
+.product-table {
+    width: 80%;
+    max-width: 900px;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.product-table td {
+    padding: 20px;
+}
+
+.product-image-cell {
+    width: 90%;
+    text-align: center;
+    vertical-align: middle;
+    transition: 0.5s;
+    
+}
+
+.product-image-cell:hover{
+    transform: scale(1.1);
+
+}
+
+
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-description-cell {
+    width: 60%;
+}
+
+.product-description-cell h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    font-weight: bold;
+  
+}
+
+.product-description-cell p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
