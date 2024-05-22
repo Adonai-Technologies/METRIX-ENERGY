@@ -89,3 +89,26 @@ p{
     line-height: 1.5;
 }
 
+
+@media screen and (max-width: 768px) {
+    .product-table {
+        width: 100%;
+    }
+
+    .product-image-cell {
+        width: 100%;
+    }
+
+    .product-description-cell {
+        width: 100%;
+    }
+
+    .product-description-cell h2 {
+        font-size: 20px;
+    }  
+
+    .product-description-cell p {   
+        font-size: 14px;
+    }
+    
+}
