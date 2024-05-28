@@ -138,18 +138,19 @@
       <div class="row">
         <div class="col-md-6 px-0">
           <div class="form_container">
-            <form action="">
+            <form  action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="5d538694-674a-4cfc-ac2d-24b55472685f">
               <div class="form-row">
                 <div class="form-group col">
-                  <input type="text" class="form-control" placeholder="Your Name" />
+                  <input type="text" class="form-control" name="name" placeholder="Your Name" required />
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col-lg-6">
-                  <input type="text" class="form-control" placeholder="Phone Number" />
+                  <input type="text" class="form-control" name="phone" placeholder="Phone Number" required/>
                 </div>
                 <div class="form-group col-lg-6">
-                  <select name="" id="" class="form-control wide">
+                  <select name="select" id="" class="form-control wide">
                     <option value="">Select Service</option>
                     <option value="">House Wiring</option>
                     <option value="">Installation</option>
@@ -162,12 +163,12 @@
               </div>
               <div class="form-row">
                 <div class="form-group col">
-                  <input type="email" class="form-control" placeholder="Email" />
+                  <input type="email" class="form-control" name="email" placeholder="Email" required/>
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col">
-                  <input type="text" class="message-box form-control" placeholder="Message" />
+                  <input type="text" class="message-box form-control" name="message" placeholder="Message" />
                 </div>
               </div>
               <div class="btn_box">

@@ -482,13 +482,14 @@
 				<div class="row">
 					<div class="col-md-6 px-0">
 						<div class="form_container">
-							<form action="">
+							<form  action="https://api.web3forms.com/submit" method="POST">
+								 <input type="hidden" name="access_key" value="5d538694-674a-4cfc-ac2d-24b55472685f">
 								<div class="form-row">
 									<div class="form-group col">
 										<input
 											type="text"
 											class="form-control"
-											placeholder="Your Name" />
+											placeholder="Your Name" name="name" required/>
 									</div>
 								</div>
 								<div class="form-row">
@@ -496,7 +497,7 @@
 										<input
 											type="text"
 											class="form-control"
-											placeholder="Phone Number" />
+											placeholder="Phone Number" name="phone" required />
 									</div>
 									<div class="form-group col-lg-6">
 										<select name="" id="" class="form-control wide">
@@ -515,7 +516,7 @@
 										<input
 											type="email"
 											class="form-control"
-											placeholder="Email" />
+											placeholder="Email" name="email" required/>
 									</div>
 								</div>
 								<div class="form-row">
@@ -523,7 +524,7 @@
 										<input
 											type="text"
 											class="message-box form-control"
-											placeholder="Message" />
+											placeholder="Message" name="message" required/>
 									</div>
 								</div>
 								<div class="btn_box">
